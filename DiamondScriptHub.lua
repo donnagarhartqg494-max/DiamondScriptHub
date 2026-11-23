@@ -13,48 +13,42 @@ local Translations = {
         brook1 = "Brookhaven — ESP + Телепорт",
         brook2 = "Brookhaven — Qwakk Hub",
         boat1  = "Build a Boat — DiamondBoatHub",
-        univ1  = "Universal — Vidas Hub (Fly, Noclip)",
-        univ2  = "Universal — NyxMods Hub",
+        univ   = "Universal — Diamond Universal Hub",
         mm2    = "Murder Mystery 2 — Diamond MM2 [BETA]",
     }},
     EN = { buttons = {
         brook1 = "Brookhaven — ESP + Teleport",
         brook2 = "Brookhaven — Qwakk Hub",
         boat1  = "Build a Boat — DiamondBoatHub",
-        univ1  = "Universal — Vidas Hub (Fly, Noclip)",
-        univ2  = "Universal — NyxMods Hub",
+        univ   = "Universal — Diamond Universal Hub",
         mm2    = "Murder Mystery 2 — Diamond MM2 [BETA]",
     }},
     UA = { buttons = {
         brook1 = "Brookhaven — ESP + Телепорт",
         brook2 = "Brookhaven — Qwakk Hub",
         boat1  = "Build a Boat — DiamondBoatHub",
-        univ1  = "Universal — Vidas Hub (Політ, Noclip)",
-        univ2  = "Universal — NyxMods Hub",
+        univ   = "Universal — Diamond Universal Hub",
         mm2    = "Murder Mystery 2 — Diamond MM2 [BETA]",
     }},
     ES = { buttons = {
         brook1 = "Brookhaven — ESP + Teletransporte",
         brook2 = "Brookhaven — Qwakk Hub",
         boat1  = "Build a Boat — DiamondBoatHub",
-        univ1  = "Universal — Vidas Hub (Vuelo, Noclip)",
-        univ2  = "Universal — NyxMods Hub",
+        univ   = "Universal — Diamond Universal Hub",
         mm2    = "Murder Mystery 2 — Diamond MM2 [BETA]",
     }},
     DE = { buttons = {
         brook1 = "Brookhaven — ESP + Teleport",
         brook2 = "Brookhaven — Qwakk Hub",
         boat1  = "Build a Boat — DiamondBoatHub",
-        univ1  = "Universal — Vidas Hub (Fliegen, Noclip)",
-        univ2  = "Universal — NyxMods Hub",
+        univ   = "Universal — Diamond Universal Hub",
         mm2    = "Murder Mystery 2 — Diamond MM2 [BETA]",
     }},
     FR = { buttons = {
         brook1 = "Brookhaven — ESP + Téléportation",
         brook2 = "Brookhaven — Qwakk Hub",
         boat1  = "Build a Boat — DiamondBoatHub",
-        univ1  = "Universal — Vidas Hub (Vol, Noclip)",
-        univ2  = "Universal — NyxMods Hub",
+        univ   = "Universal — Diamond Universal Hub",
         mm2    = "Murder Mystery 2 — Diamond MM2 [BETA]",
     }},
 }
@@ -101,7 +95,7 @@ local function RunAndClose(loader)
 end
 
 -- ==========================================
--- ССЫЛКИ НА КНОПКИ (для смены языка)
+-- ССЫЛКИ НА КНОПКИ
 -- ==========================================
 local ButtonRefs = {}
 
@@ -168,15 +162,9 @@ end)
 -- ==========================================
 Tab:CreateSection("Universal")
 
-RegisterButton("univ1", function()
+RegisterButton("univ", function()
     RunAndClose(function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/1K0n4K7q"))()
-    end)
-end)
-
-RegisterButton("univ2", function()
-    RunAndClose(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/NyxMods000/NyxModsUniversal/refs/heads/main/Loader.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/donnagarhartqg494-max/DIAMOND-UNIVERSAL-HUB/refs/heads/main/DIAMOND%20UNIVERSAL%20HUB.lua"))()
     end)
 end)
 
